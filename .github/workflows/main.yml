@@ -24,7 +24,7 @@ jobs:
 
     steps:
       # checks-out the current repository under $GITHUB_WORKSPACE, so our job can access this repo codes
-      - uses: actions/checkout@2
+      - uses: actions/checkout@v2
 
       # Runs a single line command using runner shell
       - name: Run a one-line script
