@@ -3,7 +3,7 @@ name: Publish GitHub Actions Artifacts Example
 
 on:
   push:
-    branches: [ change-to-master-or-main ]
+    branches: [main ]
 
 jobs:
        
@@ -20,6 +20,7 @@ jobs:
           echo 'alpha'    > alpha.html
           echo 'bravo'    > bravo.html
           echo 'charlie'  > charlie.html
+          echo 'Visualpath' > visualpath.txt
           cd ..
     
       - name: Step 3 - Use the Upload Artifact GitHub Action
