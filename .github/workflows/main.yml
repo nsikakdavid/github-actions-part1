@@ -40,6 +40,6 @@ jobs:
           echo Is Git installed ?
           git --version
           echo what about the build tools ?
-          mvn --versiongradle --version
+          mvn --version
           ant -version
 
