@@ -24,6 +24,7 @@ jobs:
           cd ..
     
       - name: Step 3 - Use the Upload Artifact GitHub Action
+        # the ubuntu-latest runner will be gone once the run is complated
         uses: actions/upload-artifact@v2
         with: 
           name: assets-for-download
