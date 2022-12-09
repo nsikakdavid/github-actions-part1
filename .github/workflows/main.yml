@@ -42,4 +42,5 @@ jobs:
           echo what about the build tools ?
           mvn --version
           ant -version
+          gradle --version
 
