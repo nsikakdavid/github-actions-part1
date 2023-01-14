@@ -28,7 +28,7 @@ jobs:
 
       # Runs a single line command using runner shell
       - name: Run a one-line script
-        run: echo welcome to devops trainning by Visualpath
+        run: echo welcome to devops GitHub Action
 
       # Run a set of commands using the runner shell
       - name: Run a multi-line script
@@ -61,6 +61,6 @@ jobs:
           echo 9. What is the disk layout?
           df
           echo
-          echo 10. What are the Environment VAriables?
+          echo 10. What are the Environment Variables?
           env 
           
